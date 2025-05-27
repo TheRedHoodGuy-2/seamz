@@ -5,7 +5,6 @@ import type React from "react";
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useSearchParams } from "next/navigation";
 import {
   LayoutDashboard,
   Smartphone,
@@ -50,7 +49,6 @@ export default function DashboardLayout({
 }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const pathname = usePathname();
-  const searchParams = useSearchParams();
 
   return (
     <Suspense fallback={<div>Loading...</div>}>
