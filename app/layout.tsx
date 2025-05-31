@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Seamz - Seamless Number Rental Service",
   description: "Professional number rental service with seamless SIM solutions",
-    generator: 'v0.dev'
+    generator: 'trhg.dev'
 }
 
 export default function RootLayout({
